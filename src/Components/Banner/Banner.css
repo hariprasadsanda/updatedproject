@@ -1,0 +1,44 @@
+.banner-section{
+    background-image: url('https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?t=st=1729671610~exp=1729675210~hmac=3a35bb32c881c03fcc0a61085b3b0bee7b140205c37d2ff7f2655cb278179cd2&w=740');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.banner-content{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+.cards{
+    display: flex;
+}
+.card{
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: -80px;
+    padding: 20px;
+    width: 250px;
+    height: 110px;
+    text-align: center; 
+}
+.card-heading{
+    color:#002A50;
+}
+.card-button{
+    background-color: #002A50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .cards{
+        display: none;
+    }
+
+}
